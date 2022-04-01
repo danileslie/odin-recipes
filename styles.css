@@ -1,0 +1,30 @@
+/*main page */
+
+body{
+    background-color: powderblue;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.eating{ 
+    width: 700px;
+    height: auto;
+    border: 2px solid goldenrod;
+}
+
+/*recipe pages */
+
+.recipeimage{
+    width: 500px;
+    height: auto;
+}
+
+.ingredients, .steps{
+    display: inline-block;
+    text-align: left;
+}
+
+li{
+ padding-bottom: 10px;   
+}
