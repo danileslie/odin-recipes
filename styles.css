@@ -4,7 +4,7 @@ body{
     background-color: powderblue;
     text-align: center;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1500px;
 }
 
 .eating{ 
@@ -18,8 +18,8 @@ body{
 .recipeimage{
     box-sizing: border-box;
     object-fit: cover;
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     margin: 20px;
     border: 2px solid goldenrod;
 }
@@ -40,10 +40,18 @@ li{
 .img-and-ing{
     display: flex;
     flex-direction: column;
+    
 }
 
-.steps-container{
+.steps-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+}
+
+.steps{
+    display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+    justify-content: space-around;  
 }
