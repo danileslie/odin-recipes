@@ -16,8 +16,12 @@ body{
 /*recipe pages */
 
 .recipeimage{
+    box-sizing: border-box;
+    object-fit: cover;
     width: 500px;
-    height: auto;
+    height: 500px;
+    margin: 20px;
+    border: 2px solid goldenrod;
 }
 
 .ingredients, .steps{
@@ -27,4 +31,19 @@ body{
 
 li{
  padding-bottom: 10px;   
+}
+
+.container{
+    display: flex;
+}
+
+.img-and-ing{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
